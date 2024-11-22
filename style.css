@@ -1,0 +1,61 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    width: 300px;
+    border: 1.5px solid rgb(183, 183, 183);
+}
+
+h1 {
+    font-size: 30px;
+    color: rgb(45, 45, 45);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    text-align: left;
+    color: rgb(81, 81, 81);
+}
+
+input, select, button {
+    padding: 10px;
+    border: 1px solid rgb(183, 183, 183);
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+button {
+    color: white;
+    cursor: pointer;
+    background-color: rgb(26, 76, 241);
+}
+
+#error {
+    color: red;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(26, 76, 241);
+}
